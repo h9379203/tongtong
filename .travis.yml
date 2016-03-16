@@ -9,6 +9,5 @@ notifications:
   email:
     recipients:
       - h9379203@gmail.com
-      - swoo0812@gmail.com
     on_success: change
     on_failure: always
