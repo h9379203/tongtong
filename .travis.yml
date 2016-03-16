@@ -1,3 +1,6 @@
+before_script:
+  - mysql -e 'create database fpcs;'
+  - mysql -e 'use fpcs;'
 language: cpp
 compiler:
   - g++
