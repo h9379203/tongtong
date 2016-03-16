@@ -1,11 +1,10 @@
-// .travis.yml
 language: cpp
 compiler:
   - g++
   - clang++
 os:
   - linux
-script: make && make test
+script: make clean && make
 notifications:
   email:
     recipients:
