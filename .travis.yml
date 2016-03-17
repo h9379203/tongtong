@@ -14,3 +14,5 @@ notifications:
       - h9379203@gmail.com
     on_success: change
     on_failure: always
+  slack:
+    eliotteam:njCrDCaR1WBjolzJne30fy11
