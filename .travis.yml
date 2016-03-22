@@ -7,7 +7,7 @@ compiler:
   - clang++
 os:
   - linux
-script: ./src/make clean && make
+script: make clean && make
 notifications:
   email:
     recipients:
