@@ -2,19 +2,11 @@
  *   atc_main.cpp
  *************************************************************************/
 
-#include <iostream>
-#include <fstream>
-#include <map>
-
-using namespace std;
-
-
 /*----------------------------------------------------------------
- * Purpose   :  KATC Main Process
+ * Purpose   :  FPC Main Process
  * Args      :
  * Return    :
  *-----------------------------------------------------------------*/
 int main(int argc, char *argv[]) {
-		
 }
 
