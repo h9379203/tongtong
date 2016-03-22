@@ -30,7 +30,7 @@ LIBS =
 #
 # Build target
 #
-TARGET =  Fpcs
+TARGET =  Katc
 
 all:    $(TARGET)
 
@@ -51,7 +51,7 @@ daemon.o: daemon.cpp
 # Clean
 #
 clean:
-	$(RM) core *.o Fpcs
+	$(RM) core *.o Katc
 #
 # End of Makefile
 #

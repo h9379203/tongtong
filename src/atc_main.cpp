@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 			cout << "- Child pid = " << ret << endl;
 			break;
 	}
-		
+	
 	while (1) {
 		pause();
 		cout << "[MAIN] Recv SIGNAL..." << endl;
@@ -62,8 +62,8 @@ void chk_chld(int signum)
 	int		status;
 
 	cout << "[SIGNAL] RECV SIGCHLD signal" << endl;
-	if ((pid_child = waitpid(-1, &status, WNOHANG)) > 0) {
+	if ((pid_child = waitpid(-1, &status, WNOHANG)) > 0)
+	{
 		cout << "\t- Exit child PID(" << pid_child << ")" << endl;
-
 	}
 }
