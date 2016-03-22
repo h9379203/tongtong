@@ -25,6 +25,9 @@ VERSION	 	 = 1.0.0.0
 # Compiler Flag, ex) -fPIC -shared
 CFLAGS		 = -c
 
+EXTRA_IPATHS	= ./src
+INCLUDE_DIR	= ./head
+
 # Header File Path
 IPATHS       = $(EXTRA_IPATHS) -I./ -I$(INCLUDE_DIR)
 
